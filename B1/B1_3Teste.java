@@ -10,7 +10,9 @@ public class B1_3Teste {
         int numeroInt = entrada.nextInt(); // Lê um número inteiro
         System.out.println("Você digitou o inteiro: " + numeroInt);
 
-        System.out.print("Digite um número decimal (double): "); double numeroDouble = entrada.nextDouble(); // Lê um número double System.out.println("Você digitou o double: " + numeroDouble);
+        System.out.print("Digite um número decimal (double): "); 
+        double numeroDouble = entrada.nextDouble(); // Lê um número double 
+        System.out.println("Você digitou o double: " + numeroDouble);
 
         entrada.close();
     }
